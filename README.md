@@ -9,7 +9,31 @@ The purpose of this analysis, as stated in the notebook, is to explore detailed 
 
 ***
 
-## Objective 
 
-  ### Data Sources
+## Objective 
+The specific objectives of this EDA project are to:
+1. Explore the structure and contents of the retail dataset
+2. Perform necessary data cleaning (handling missing values and duplicates)
+3. Extract time-based features such as month and week of the year
+4. Analyze customer demographics and purchasing behavior
+5. Examine sales patterns that reveal seasonal and marketing insights.
+6. Provide data-driven findings that can support retail strategy
+
+---
+
+  ## Data Sources
 The primary data used for this analysis is the "retail_data.csv"  containing details of a retail environment with a million rows and 100+ columns, covering customer information, transactional data, product details, promotional information, and customer behavior metrics. The dataset is taken from kaggle - feel free to explore them here. [click here](https://www.kaggle.com/datasets/utkalk/large-retail-data-set-for-eda) 
+
+***
+
+## Methodology
+
+The EDA followed a structured process exactly as implemented in the Jupyter Notebook.
+
+### Tools and Libraries Used
+
+The following Python libraries were imported and used:
+- Pandas – for data loading, manipulation, and analysis
+- NumPy – for numerical operations
+- Matplotlib / Seaborn – for data visualization
+
